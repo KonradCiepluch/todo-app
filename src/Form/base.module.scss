@@ -1,0 +1,47 @@
+@import "../variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 48px;
+  border: 1px solid $gray;
+  border-radius: 8px;
+  padding: 14px 24px;
+  box-sizing: border-box;
+
+  &Input {
+    width: calc(100% - 14px);
+    border: 0;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: $very-dark-gray;
+    outline: none;
+
+    &::placeholder {
+      color: $very-dark-gray;
+    }
+  }
+
+  &Submit {
+    display: flex;
+    align-items: center;
+
+    margin-left: 5px;
+    border: none;
+
+    cursor: pointer;
+
+    background-color: unset;
+  }
+
+  &Error {
+    width: 100%;
+
+    font-size: 11px;
+    color: $red;
+  }
+}

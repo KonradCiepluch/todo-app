@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.wrapper {
+  display: flex;
+
+  margin: 19px 0;
+
+  &Button {
+    flex-grow: 1;
+
+    border-radius: 8px;
+    padding: 8px;
+    border: 0;
+    border: 1px solid $gray;
+
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 500;
+    background-color: unset;
+    color: $very-dark-gray;
+
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:last-child {
+      margin-left: 20px;
+    }
+
+    &Active {
+      border: none;
+
+      background-color: $sea-blue;
+      font-weight: 600;
+      color: $white;
+    }
+  }
+}
