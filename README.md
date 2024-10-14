@@ -1,20 +1,22 @@
 # This is todo app project
 
-Build with Vite, React, Typescript, SCSS, UUID.
+Built with Vite, React, Typescript, SCSS, UUID.
 
-As application is very simple I didn't use any state library like zustand / redux. Kept it simple as possible without overengineering.
+As application is very simple I didn't use any state library like zustand / redux. I kept it simple as possible without overengineering.
 
 # Instalataion
 
 npm i
+
 npm run dev
+
 Click the link appeared in the console
 
 # Functionalities
 
-Adding, removing, toggling tasks.
-Changing filters
-Persistance with localStorage(tasks, activeFilter)
+- Adding, removing, toggling tasks
+- Changing filters
+- Persistance with localStorage(tasks, activeFilter)
 
 # Future steps
 
