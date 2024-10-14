@@ -52,9 +52,16 @@
       }
     }
 
+    & > span {
+      width: calc(100% - 40px);
+
+      hyphens: auto;
+      word-wrap: break-word;
+    }
+
     &Remove {
       position: absolute;
-      top: 0;
+      top: calc(50% - 10px);
       left: calc(100% - 20px);
 
       display: flex;
