@@ -1,6 +1,7 @@
 # This is todo app project
 
-Build with Vite, React, Typescript, SCSS, UUID
+Build with Vite, React, Typescript, SCSS, UUID.
+
 As application is very simple I didn't use any state library like zustand / redux. Kept it simple as possible without overengineering.
 
 # Instalataion
